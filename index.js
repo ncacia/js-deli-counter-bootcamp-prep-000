@@ -31,6 +31,6 @@ else {
   var n = i + 1;
   otherLine.push ( n + "." + katzDeliLine [i] );
   }
-  return ("The Line is currently: " + otherLine + "$0");
+  return ("The Line is currently: " + otherLine ", ");
 }
 }
