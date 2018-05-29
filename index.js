@@ -25,12 +25,12 @@ return ("The line is currently empty.");
 }
 
 else {
-  var deadstupid =[];
-  for (var i=0; i< katzDeliLine.length;i++){
+  var otherLine =[];
+  for (var i=0; i < katzDeliLine.length;i++){
   
   var n = i+1;
-  deadstupid.push ( n + "." + katzDeliLine [i] );
+  otherLine.push ( n + "." + katzDeliLine [i] );
   }
-  return ("The Line is currently: " +  deadstupid  + " " );
+  return ("The Line is currently: " + otherLine + " " );
 }
 }
