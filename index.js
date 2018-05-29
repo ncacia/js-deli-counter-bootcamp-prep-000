@@ -29,7 +29,7 @@ else {
   for (var i=0; i < katzDeliLine.length; i++){
   
   var n=i+1;
-  otherLine.push (" "+n+"." +katzDeliLine[i]);
+  otherLine.push (" "+n+ "." + katzDeliLine[i]);
   }
   return ("The Line is currently: " + otherLine);
 }
